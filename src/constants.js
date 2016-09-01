@@ -1,9 +1,9 @@
-const SORT_OPTION_MOST_HELPFUL = 1
-const SORT_OPTION_MOST_RECENT = 2
-const SORT_OPTION_HIGHEST_FIRST = 3
-const SORT_OPTION_LOWEST_FIRST = 4
+export const SORT_OPTION_MOST_HELPFUL = 1
+export const SORT_OPTION_MOST_RECENT = 2
+export const SORT_OPTION_HIGHEST_FIRST = 3
+export const SORT_OPTION_LOWEST_FIRST = 4
 
-const sort_options = (function(){
+export const sort_options = (function(){
 	let dict = {}
 	dict[SORT_OPTION_MOST_HELPFUL] = {title: 'Most Helpful Reviews', value: 'Most Helpful'}
 	dict[SORT_OPTION_MOST_RECENT] = {title: 'Most Recent Reviews', value: 'Most Recent'}
